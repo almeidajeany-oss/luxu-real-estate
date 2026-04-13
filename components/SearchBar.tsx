@@ -16,7 +16,7 @@ export const SearchBar = () => {
           key={category}
           variant={activeCategory === category ? 'default' : 'outline'}
           className={cn(
-            'whitespace-nowrap px-6 py-2 rounded-full text-sm font-medium transition-all hover:-translate-y-0.5 shadow-sm',
+            'whitespace-nowrap px-6 py-2.5 rounded-full text-sm font-medium transition-all hover:-translate-y-0.5 shadow-sm',
             activeCategory === category
               ? 'bg-nordic-dark text-white hover:bg-nordic-dark/90 shadow-nordic-dark/10'
               : 'bg-background border-border text-nordic-muted hover:text-nordic-dark hover:border-primary/50 hover:bg-primary/5'
