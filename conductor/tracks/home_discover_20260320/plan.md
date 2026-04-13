@@ -5,7 +5,7 @@
 - [x] Task: Initialize shadcn/ui and Install Components a457d91
     - [ ] Run `npx shadcn@latest init` to initialize the project with shadcn/ui.
     - [ ] Install required components: `npx shadcn@latest add button input card badge tabs avatar navigation-menu separator`.
-- [~] Task: Create Basic Hero Section UI
+- [x] Task: Create Basic Hero Section UI 2bde077
     - [ ] Create `components/Hero.tsx` with a title and description.
     - [ ] Use shadcn `Button` and `Input` for the integrated hero search bar.
     - [ ] Add Tailwind CSS 4 styling for the background and layout.
