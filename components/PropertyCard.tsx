@@ -1,8 +1,10 @@
 import React from 'react';
-import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
+import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Heart, MapPin, Bed, Bath, Move } from 'lucide-react';
+
+import Image from 'next/image';
 
 interface PropertyCardProps {
   title: string;
@@ -28,10 +30,11 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   return (
     <Card className="group relative rounded-xl overflow-hidden border-none bg-background shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="relative aspect-[4/3] w-full overflow-hidden">
-        <img
+        <Image
           src={image}
           alt={title}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
         {tag && (
           <Badge className="absolute top-4 left-4 bg-background/90 text-foreground backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">

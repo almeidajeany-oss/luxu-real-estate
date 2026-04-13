@@ -14,7 +14,7 @@ vi.mock('@/components/SearchBar', () => ({
 
 // Mock PropertyCard component
 vi.mock('@/components/PropertyCard', () => ({
-  PropertyCard: (props: any) => <div data-testid="property-card-mock">{props.title}</div>,
+  PropertyCard: (props: { title: string }) => <div data-testid="property-card-mock">{props.title}</div>,
 }));
 
 describe('Home Page', () => {

@@ -41,7 +41,7 @@
     - [ ] Review and adjust all components for mobile responsiveness.
     - [ ] Ensure touch targets are at least 44x44px.
     - [ ] Test interactions on mobile-style viewports.
-- [ ] Task: Performance Tuning and Polishing
+- [~] Task: Performance Tuning and Polishing
     - [ ] Use `next/image` for high-resolution images to ensure fast loading times.
     - [ ] Refine styling and transitions for a premium, app-like feel.
     - [ ] Run a final lint and type check.
