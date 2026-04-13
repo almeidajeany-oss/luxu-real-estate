@@ -19,7 +19,7 @@
 
 ## Phase 2: Property Listings and Search
 
-- [ ] Task: Create Property Card Component
+- [~] Task: Create Property Card Component
     - [ ] Create `components/PropertyCard.tsx` using shadcn `Card` and `Badge` components.
     - [ ] Implement ghost `Button` for the heart icon.
     - [ ] Use Tailwind CSS 4 for internal card spacing and visual refinements.
