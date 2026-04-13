@@ -2,7 +2,7 @@
 
 ## Phase 1: Foundation and UI Layout
 
-- [~] Task: Initialize shadcn/ui and Install Components
+- [x] Task: Initialize shadcn/ui and Install Components a457d91
     - [ ] Run `npx shadcn@latest init` to initialize the project with shadcn/ui.
     - [ ] Install required components: `npx shadcn@latest add button input card badge tabs avatar navigation-menu separator`.
 - [ ] Task: Create Basic Hero Section UI
