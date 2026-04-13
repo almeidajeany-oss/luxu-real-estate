@@ -14,7 +14,7 @@ The primary users are **High-end Buyers/Renters** who are looking for premium re
 The main objective of the platform is **Property Discovery**. We aim to provide an intuitive and efficient way for users to search for and discover premium properties that meet their high standards.
 
 ## Key Features
-- **Search & Visualization**: Advanced search filters, high-quality image galleries, and detailed property maps to provide an immersive experience.
+- **Search & Visualization**: A premium Home Discover screen with advanced search filters, high-quality property cards, and curated collections to provide an immersive experience.
 - **User Personalization**: User accounts, favorites lists, and personalized profiles to allow users to save their interests and manage their searches.
 - **Admin/Management Tools**: A comprehensive admin dashboard for tracking leads and managing property listings effectively.
 

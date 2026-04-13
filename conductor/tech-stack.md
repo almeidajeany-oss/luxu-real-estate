@@ -7,7 +7,9 @@
 
 ## Styling & UI
 - **Tailwind CSS 4**: A utility-first CSS framework for rapid and consistent styling.
+- **shadcn/ui**: A collection of re-usable components built using Radix UI and Tailwind CSS for a premium design system.
 - **Modern UI Patterns**: Focus on responsive, accessible, and performant UI components that align with luxury real estate standards.
 
-## Architecture
+## Architecture & Testing
 - **Next.js App Router**: Utilizing Server Components and modern data fetching patterns to ensure a performant and scalable application structure.
+- **Vitest & React Testing Library**: For robust unit and integration testing of components and application logic.
