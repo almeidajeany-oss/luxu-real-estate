@@ -24,7 +24,7 @@
     - [ ] Implement ghost `Button` for the heart icon.
     - [ ] Use Tailwind CSS 4 for internal card spacing and visual refinements.
     - [ ] Write unit tests for the `PropertyCard` component, verifying it correctly displays property information.
-- [ ] Task: Implement Search Bar and Basic Filters UI
+- [~] Task: Implement Search Bar and Basic Filters UI
     - [ ] Create `components/SearchBar.tsx` using shadcn `Input`, `Button`, and `Tabs` (for Buy/Rent/All toggles).
     - [ ] Add shadcn `Separator` for filter groupings if necessary.
     - [ ] Integrate the `SearchBar` and `PropertyCard` grid into `app/page.tsx`.
