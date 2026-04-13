@@ -17,7 +17,7 @@
     - [ ] Write unit tests for navigation links within the main layout.
 - [x] Task: Conductor - User Manual Verification 'Phase 1: Foundation and UI Layout' (Protocol in workflow.md) [checkpoint: 253cbc2]
 
-## Phase 2: Property Listings and Search
+## Phase 2: Property Listings and Search [checkpoint: f5ce108]
 
 - [x] Task: Create Property Card Component dd4d1de
     - [ ] Create `components/PropertyCard.tsx` using shadcn `Card` and `Badge` components.
@@ -33,7 +33,7 @@
     - [ ] Create a mock data file for featured properties.
     - [ ] Fetch and display mock data in the `app/page.tsx` property grid.
     - [ ] Write integration tests for the property grid displaying data correctly.
-- [ ] Task: Conductor - User Manual Verification 'Phase 2: Property Listings and Search' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 2: Property Listings and Search' (Protocol in workflow.md) [checkpoint: f5ce108]
 
 ## Phase 3: Final Polishing and Mobile Optimization
 
