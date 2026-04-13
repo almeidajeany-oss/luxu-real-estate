@@ -29,7 +29,7 @@
     - [ ] Add shadcn `Separator` for filter groupings if necessary.
     - [ ] Integrate the `SearchBar` and `PropertyCard` grid into `app/page.tsx`.
     - [ ] Write unit tests for the `SearchBar` component rendering and input handling.
-- [~] Task: Mock Data Integration for Home Screen
+- [x] Task: Mock Data Integration for Home Screen ab58f1b
     - [ ] Create a mock data file for featured properties.
     - [ ] Fetch and display mock data in the `app/page.tsx` property grid.
     - [ ] Write integration tests for the property grid displaying data correctly.
