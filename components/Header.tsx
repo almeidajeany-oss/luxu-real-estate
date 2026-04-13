@@ -7,7 +7,6 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -107,10 +106,6 @@ export const Header = () => {
               <span className="absolute top-2 right-2 w-2 h-2 bg-red-500 rounded-full border-2 border-background"></span>
             </Button>
             <div className="h-8 w-px bg-border mx-1 md:mx-2" />
-            <Avatar className="w-9 h-9 ring-2 ring-transparent hover:ring-primary transition-all cursor-pointer">
-              <AvatarImage src="https://github.com/shadcn.png" alt="Profile" />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
           </div>
         </div>
       </div>
