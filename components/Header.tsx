@@ -78,8 +78,9 @@ export const Header = () => {
               <NavigationMenuList className="space-x-4">
                 {navLinks.map((link) => (
                   <NavigationMenuItem key={link.label}>
-                    <Link href={link.href} legacyBehavior passHref>
-                      <NavigationMenuLink
+                    <NavigationMenuLink asChild>
+                      <Link
+                        href={link.href}
                         className={cn(
                           navigationMenuTriggerStyle(),
                           'font-medium text-sm bg-transparent hover:bg-transparent focus:bg-transparent',
@@ -89,8 +90,8 @@ export const Header = () => {
                         )}
                       >
                         {link.label}
-                      </NavigationMenuLink>
-                    </Link>
+                      </Link>
+                    </NavigationMenuLink>
                   </NavigationMenuItem>
                 ))}
               </NavigationMenuList>

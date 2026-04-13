@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
@@ -6,8 +8,17 @@ import { cn } from '@/lib/utils';
 
 const categories = ['All', 'House', 'Apartment', 'Villa', 'Penthouse'];
 
-export const SearchBar = () => {
+interface SearchBarProps {
+  onCategoryChange: (category: string) => void;
+}
+
+export const SearchBar = ({ onCategoryChange }: SearchBarProps) => {
   const [activeCategory, setActiveCategory] = React.useState('All');
+
+  const handleCategoryChange = (category: string) => {
+    setActiveCategory(category);
+    onCategoryChange(category);
+  };
 
   return (
     <div className="flex items-center justify-center gap-3 overflow-x-auto hide-scroll py-2 px-4 -mx-4">
@@ -21,7 +32,7 @@ export const SearchBar = () => {
               ? 'bg-nordic-dark text-white hover:bg-nordic-dark/90 shadow-nordic-dark/10'
               : 'bg-background border-border text-nordic-muted hover:text-nordic-dark hover:border-primary/50 hover:bg-primary/5'
           )}
-          onClick={() => setActiveCategory(category)}
+          onClick={() => handleCategoryChange(category)}
         >
           {category}
         </Button>

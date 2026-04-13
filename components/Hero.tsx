@@ -1,9 +1,24 @@
+'use client';
+
 import React from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Search } from 'lucide-react';
 
-export const Hero = () => {
+interface HeroProps {
+  onSearch: (query: string) => void;
+}
+
+export const Hero = ({ onSearch }: HeroProps) => {
+  const [searchQuery, setSearchQuery] = React.useState('');
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+    // Búsqueda en tiempo real conforme escribe
+    onSearch(query);
+  };
+
   return (
     <section className="py-12 md:py-16">
       <div className="max-w-3xl mx-auto text-center space-y-8">
@@ -23,6 +38,8 @@ export const Hero = () => {
             className="block w-full pl-12 pr-4 py-8 rounded-xl border-none bg-background text-foreground shadow-lg placeholder:text-muted-foreground/60 focus-visible:ring-2 focus-visible:ring-primary transition-all text-lg"
             placeholder="Search by city, neighborhood, or address..."
             type="text"
+            value={searchQuery}
+            onChange={handleInputChange}
           />
           <Button className="absolute inset-y-2 right-2 px-6 h-auto bg-primary hover:bg-primary/90 text-primary-foreground font-medium rounded-lg transition-colors shadow-lg shadow-primary/20">
             Search
