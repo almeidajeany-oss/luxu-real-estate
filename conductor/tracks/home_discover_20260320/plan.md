@@ -11,7 +11,7 @@
     - [ ] Add Tailwind CSS 4 styling for the background and layout.
     - [ ] Integrate `Hero` component into `app/page.tsx`.
     - [ ] Write unit tests for the `Hero` component rendering.
-- [ ] Task: Implement Navigation Integration
+- [~] Task: Implement Navigation Integration
     - [ ] Update `app/layout.tsx` to include a header using shadcn `NavigationMenu` and `Avatar`.
     - [ ] Ensure navigation links match the `screen.png` design.
     - [ ] Write unit tests for navigation links within the main layout.
