@@ -17,4 +17,12 @@ describe('SearchBar Component', () => {
     const filterButton = screen.getByRole('button', { name: /Filters/i });
     expect(filterButton).toBeDefined();
   });
+
+  it('changes active category on click', async () => {
+    const { fireEvent } = await import('@testing-library/react');
+    render(<SearchBar />);
+    const houseButton = screen.getByText(/^House$/i);
+    fireEvent.click(houseButton);
+    expect(houseButton.className).toContain('bg-nordic-dark');
+  });
 });
