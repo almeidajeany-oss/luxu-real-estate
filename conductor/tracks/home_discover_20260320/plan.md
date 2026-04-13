@@ -1,6 +1,6 @@
 # Implementation Plan: Implement Home Discover Screen
 
-## Phase 1: Foundation and UI Layout
+## Phase 1: Foundation and UI Layout [checkpoint: 253cbc2]
 
 - [x] Task: Initialize shadcn/ui and Install Components a457d91
     - [ ] Run `npx shadcn@latest init` to initialize the project with shadcn/ui.
@@ -15,7 +15,7 @@
     - [ ] Update `app/layout.tsx` to include a header using shadcn `NavigationMenu` and `Avatar`.
     - [ ] Ensure navigation links match the `screen.png` design.
     - [ ] Write unit tests for navigation links within the main layout.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1: Foundation and UI Layout' (Protocol in workflow.md)
+- [x] Task: Conductor - User Manual Verification 'Phase 1: Foundation and UI Layout' (Protocol in workflow.md) [checkpoint: 253cbc2]
 
 ## Phase 2: Property Listings and Search
 
